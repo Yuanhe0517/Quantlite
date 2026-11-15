@@ -1,0 +1,21 @@
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+# Experiment outputs and local market data
+runs/
+evaluations/
+data/
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+# Python and OS artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store

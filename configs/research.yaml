@@ -1,0 +1,17 @@
+research:
+  direction: 基于价格趋势强度和稳定性，研究未来21个交易日的动量与趋势持续因子
+  market: csi300
+  horizon_days: 21
+  fields: ['$open', '$high', '$low', '$close', '$volume', '$return']
+llm:
+  model: gpt-6.1-sol
+  reasoning_effort: low
+  max_output_tokens: 8000
+  timeout_seconds: 180
+loop:
+  max_rounds: 30
+  factors_per_round: 2
+  start: '2020-01-01'
+  end: '2023-12-31'
+  warmup_start: '2008-12-29'
+  provider_uri: '../QuantaAlpha/data/qlib/cn_data'

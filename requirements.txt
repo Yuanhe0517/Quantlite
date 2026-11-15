@@ -1,0 +1,12 @@
+# Versions exercised in the existing Python 3.11 environment.
+langgraph==1.2.19
+openai==2.54.0
+pydantic==2.14.2
+PyYAML==6.0.3
+python-dotenv>=1,<2
+Jinja2==3.1.6
+pyqlib==0.9.7
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.17.1
+pyarrow==25.0.1

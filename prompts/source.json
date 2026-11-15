@@ -1,0 +1,14 @@
+{
+  "source": "QuantaAlpha/quantaalpha/factors/prompts/prompts.yaml",
+  "sha256": "f745d3ced4956998c1648b3341dfb27f917b54dc791af3bf3db2d5a0c6b3fb7b",
+  "keys": [
+    "potential_direction_transformation",
+    "hypothesis_output_format",
+    "factor_hypothesis_specification",
+    "function_lib_description",
+    "factor_experiment_output_format",
+    "hypothesis_gen",
+    "hypothesis2experiment"
+  ],
+  "note": "Prompt string values copied verbatim; YAML serialization differs."
+}
